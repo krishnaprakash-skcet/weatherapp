@@ -1,0 +1,139 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.text{
+  font-size: calc(1px + 5vh);
+  line-height: calc(1px + 3vh);
+  text-shadow: 0 0 5px rgb(83, 154, 181), 0 0 15px #549eb0, 0 0 5px #478ca1,
+    0 0 5px #38869c, 0 0 10px #4388a8, 0 0 10px #008192, 0 0 10px #327587;
+  color: #eaeaea;
+  /* text-shadow: 0 0 5px #438ed9, 0 0 10px #0a3ca1, 0 0 10px #1a397c, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #e9edee; */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  animation: blink 10s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+.box{
+  text-align: center;
+}
+.Grid{
+ background-color: rgb(71, 155, 166); 
+}
+.li2{
+  
+  text-align: center;
+  align-items: center;
+  display:inline;
+  padding-right:85px;
+  font-size:18px;
+}
+
+.perusu{
+  font-size: 5rem;
+}
+
+/* CSS */
+.button{
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button:hover {
+  background-color: #374151;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: .75rem 1.5rem;
+  }
+}
+.logo{
+   text-align: center;
+}
+
+.line1{
+  font-weight:bolder;
+  font-size: large;
+}
+
+
+
+.button-25 {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: rgb(9, 20, 77);
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  font-weight: bold;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
+
+.icon {
+  height: 50%;
+}
+

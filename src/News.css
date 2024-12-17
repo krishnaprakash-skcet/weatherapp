@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+body {
+  background-color: #0f0f0f;  
+}
+
+.neon{
+  font-size: calc(1px + 5vh);
+  line-height: calc(1px + 3vh);
+  /* text-shadow: 0 0 5px #628cff, 0 0 15px #629cff, 0 0 25px #62c0ff,
+    0 0 20px #6267ff, 0 0 30px #000a92, 0 0 80px #004292, 0 0 80px #890092;
+  color: #eaeaea; */
+  text-shadow: 0 0 5px #4f92d4, 0 0 10px #5483e1, 0 0 10px #1a397c, 0 0 40px #5ab6c9, 0 0 60px #00f7ff, 0 0 10px #00bbff, 0 0 98px #0091ff;
+    color: #e9edee;
+  font-family: sacramento,cursive;
+  text-align: center;
+  animation: blink 10s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+.video{
+  text-align: center;
+  background: url("https://i.imgur.com/Gr7pbRO.gif") no-repeat center center/cover;
+  position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: -1;
+}
